@@ -1,6 +1,6 @@
 # Privacy Policy — Translator
 
-**Effective date:** October 19, 2026
+**Effective date:** October 23, 2026
 
 This privacy policy describes how the Translator app ("the App") handles information when you use it. The App is designed to work **on your device**: translation, language detection, text recognition, and speech features run locally, and your saved data never leaves your phone.
 
@@ -14,14 +14,16 @@ This privacy policy describes how the Translator app ("the App") handles informa
 
 ## Information the App processes
 
+This policy covers the features currently available in the App: text translation, photo translation and single-speaker voice translation.
+
 ### Text you translate
 Text you type or paste is translated on your device using Google ML Kit on-device translation models. Input text is not sent to us and is not stored outside the App's local database.
 
-### Voice input (microphone)
-When you use the microphone button, the App records audio and passes it to your device's speech recognition service to produce text. This happens only while you actively use the feature; the App does not record in the background. Audio is handled by the recognition service of your device/operating-system vendor — for example, Google's speech service on most Android phones, whose own privacy policy applies to that processing.
+### Voice translation (microphone)
+When you tap the microphone button on the Text or Voice tab, the App records audio and passes it to your device's speech recognition service to produce text, which is then translated on the device. The Voice tab translates one speaker at a time. This happens only while you actively use the feature; the App does not record in the background. Audio is handled by the recognition service of your device/operating-system vendor — for example, Google's speech service on most Android phones, whose own privacy policy applies to that processing.
 
-### Photos (text recognition)
-When you pick an image to extract text from, the image is processed on-device with Google ML Kit text recognition. The image is not uploaded by the App.
+### Photo translation (text recognition)
+When you take a photo or choose an image in the Photo tab, the image is processed on-device with Google ML Kit text recognition. The image is not uploaded or saved by the App.
 
 ### History, favorites, and settings
 The App keeps a local database (SQLite) on your device containing:
@@ -39,6 +41,7 @@ Language packs needed for translation are downloaded from Google (via ML Kit) wh
 
 - **Internet** — used only to download ML Kit language packs (and other on-demand ML Kit models) so translation works offline afterwards.
 - **Microphone** — used only while you tap the voice-input button, to convert your speech to text.
+- **Camera and photos** — used only when you tap "Take a photo" or "Choose from gallery" in the Photo tab, so the App can read text from that image on your device.
 
 ## Information we do not collect
 
